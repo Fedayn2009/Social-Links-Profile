@@ -10,8 +10,8 @@ body{
 }
 
 .container{
-    width: 400px;
-    height: 650px;
+    width: 25rem;
+    height: 40rem;
     border-radius: 20px; 
     margin: 40px auto;
     padding: 20px 0;
@@ -51,10 +51,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    /* border: 2px solid hotpink; */
     color:hsl(0, 0%, 100%);
-    margin: 20px;
+    margin: 20px 30px;
 }
 
 .link-items a{
@@ -88,3 +86,4 @@ body{
     font-weight: 600;
 
 }
+
