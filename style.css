@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter, sans-serif;
+    background: hsl(0, 0%, 8%);
+}
+
+.container{
+    width: 400px;
+    height: 650px;
+    border-radius: 20px; 
+    margin: 40px auto;
+    padding: 20px 0;
+    background: hsl(0, 0%, 12%) ;
+}
+
+.header{
+    margin-top  : 20px;
+    /* border: 2px solid  aquamarine; */
+    text-align: center;
+}
+
+.header img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.header .header-info h2{
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0 10px;
+}
+
+.header .header-info .text{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px ;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.header .header-info p{
+    color: hsl(0, 0%, 100%);
+}
+
+.link-items{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    /* border: 2px solid hotpink; */
+    color:hsl(0, 0%, 100%);
+    margin: 20px;
+}
+
+.link-items a{
+    width: 100%;
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+    background: hsl(0, 0%, 20%);
+    margin: 10px 5px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.link-items a:hover{
+    color: hsl(0, 0%, 8%) ;
+    background: hsl(75, 94%, 57%);
+}
+
+.attribution{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.attribution a{
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+    font-weight: 600;
+}
